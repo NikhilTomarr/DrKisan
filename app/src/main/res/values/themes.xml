@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base DrKisan Theme -->
+    <style name="Theme.DrKisan" parent="Theme.Material3.DayNight">
+        <!-- Primary colors -->
+        <item name="colorPrimary">@color/primary_green</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <item name="colorPrimaryContainer">@color/surface_green</item>
+        <item name="colorOnPrimaryContainer">@color/primary_green_dark</item>
+
+        <!-- Secondary colors -->
+        <item name="colorSecondary">@color/secondary_green</item>
+        <item name="colorOnSecondary">@color/on_secondary</item>
+        <item name="colorSecondaryContainer">@color/surface_green_light</item>
+        <item name="colorOnSecondaryContainer">@color/primary_green_dark</item>
+
+        <!-- Tertiary colors -->
+        <item name="colorTertiary">@color/accent_green</item>
+        <item name="colorOnTertiary">@color/white</item>
+        <item name="colorTertiaryContainer">@color/surface_green</item>
+        <item name="colorOnTertiaryContainer">@color/accent_green_dark</item>
+
+        <!-- Error colors -->
+        <item name="colorError">@color/error_red</item>
+        <item name="colorOnError">@color/white</item>
+        <item name="colorErrorContainer">#FFEBEE</item>
+        <item name="colorOnErrorContainer">#B71C1C</item>
+
+        <!-- Surface colors -->
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/on_surface</item>
+        <item name="colorSurfaceVariant">@color/surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/text_secondary</item>
+
+        <!-- Background colors -->
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorOnBackground">@color/on_background</item>
+
+        <!-- Outline colors -->
+        <item name="colorOutline">@color/outline</item>
+        <item name="colorOutlineVariant">@color/outline_variant</item>
+
+        <!-- System UI colors -->
+        <item name="android:statusBarColor">@color/primary_green_dark</item>
+        <item name="android:navigationBarColor">@color/surface</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">true</item>
+
+        <!-- Material components customization -->
+        <item name="elevationOverlayEnabled">false</item>
+        <item name="materialAlertDialogTheme">@style/DrKisan.AlertDialog</item>
+        <item name="bottomSheetDialogTheme">@style/DrKisan.BottomSheetDialog</item>
+        <item name="textAppearanceHeadline1">@style/DrKisan.TextAppearance.Headline1</item>
+        <item name="textAppearanceHeadline6">@style/DrKisan.TextAppearance.Headline6</item>
+        <item name="textAppearanceSubtitle1">@style/DrKisan.TextAppearance.Subtitle1</item>
+        <item name="textAppearanceBody1">@style/DrKisan.TextAppearance.Body1</item>
+
+        <!-- Toolbar and ActionBar -->
+        <item name="toolbarStyle">@style/DrKisan.Toolbar</item>
+        <item name="actionBarTheme">@style/DrKisan.ActionBar</item>
+    </style>
+
+    <!-- No Action Bar Theme -->
+    <style name="Theme.DrKisan.NoActionBar" parent="Theme.DrKisan">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Full Screen Theme for Camera -->
+    <style name="Theme.DrKisan.FullScreen" parent="Theme.DrKisan.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+<!--    &lt;!&ndash; Splash Screen Theme &ndash;&gt;-->
+<!--    <style name="Theme.DrKisan.SplashScreen" parent="Theme.SplashScreen">-->
+<!--        <item name="windowSplashScreenBackground">@color/surface_green</item>-->
+<!--        <item name="windowSplashScreenAnimatedIcon">@drawable/app_logo</item>-->
+<!--        <item name="windowSplashScreenAnimationDuration">1000</item>-->
+<!--        <item name="postSplashScreenTheme">@style/Theme.DrKisan</item>-->
+<!--    </style>-->
+
+    <!-- Toolbar Style -->
+    <style name="DrKisan.Toolbar" parent="Widget.Material3.Toolbar">
+        <item name="titleTextColor">@color/text_white</item>
+        <item name="subtitleTextColor">@color/text_white</item>
+        <item name="android:background">@color/primary_green</item>
+        <item name="navigationIconTint">@color/text_white</item>
+    </style>
+
+    <!-- ActionBar Style -->
+    <style name="DrKisan.ActionBar" parent="ThemeOverlay.Material3.ActionBar">
+        <item name="colorPrimary">@color/primary_green</item>
+        <item name="colorOnPrimary">@color/text_white</item>
+    </style>
+
+    <!-- Text Appearances -->
+    <style name="DrKisan.TextAppearance" parent="TextAppearance.Material3.DisplayLarge">
+        <item name="fontFamily">sans-serif</item>
+    </style>
+
+    <style name="DrKisan.TextAppearance.Headline1" parent="TextAppearance.Material3.DisplayLarge">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="DrKisan.TextAppearance.Headline6" parent="TextAppearance.Material3.HeadlineSmall">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="DrKisan.TextAppearance.Subtitle1" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <style name="DrKisan.TextAppearance.Body1" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <!-- Button Styles -->
+    <style name="DrKisan.Button" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/primary_green</item>
+        <item name="android:textColor">@color/text_white</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="DrKisan.Button.Outlined" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="strokeColor">@color/primary_green</item>
+        <item name="android:textColor">@color/primary_green</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="DrKisan.Button.Text" parent="Widget.Material3.Button.TextButton">
+        <item name="android:textColor">@color/primary_green</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <!-- Card Style -->
+    <style name="DrKisan.Card" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardBackgroundColor">@color/card_background</item>
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">4dp</item>
+    </style>
+
+    <!-- Dialog Styles -->
+    <style name="DrKisan.AlertDialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="colorPrimary">@color/primary_green</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorSurface">@color/surface</item>
+    </style>
+
+    <style name="DrKisan.BottomSheetDialog" parent="ThemeOverlay.Material3.BottomSheetDialog">
+        <item name="colorPrimary">@color/primary_green</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorSurface">@color/surface</item>
+    </style>
+
+</resources>

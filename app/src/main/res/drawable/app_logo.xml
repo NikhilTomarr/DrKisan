@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+
+    <!-- Background circle -->
+    <path
+        android:fillColor="@color/primary_green"
+        android:pathData="M32,32m-30,0a30,30 0,1 1,60 0a30,30 0,1 1,-60 0"/>
+
+    <!-- Plant stem -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M32,48L32,20c0,-1 0.5,-2 1.5,-2s1.5,1 1.5,2L35,48"/>
+
+    <!-- Left leaf -->
+    <path
+        android:fillColor="#81C784"
+        android:pathData="M25,25c-3,0 -5,2 -5,5s2,5 5,5c2,0 4,-1 5,-3L25,25z"/>
+
+    <!-- Right leaf -->
+    <path
+        android:fillColor="#81C784"
+        android:pathData="M39,25c3,0 5,2 5,5s-2,5 -5,5c-2,0 -4,-1 -5,-3L39,25z"/>
+
+    <!-- Center leaf -->
+    <path
+        android:fillColor="#66BB6A"
+        android:pathData="M32,18c-2,0 -4,2 -4,4s2,4 4,4s4,-2 4,-4s-2,-4 -4,-4z"/>
+
+    <!-- Dr text -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M20,45h4c2,0 3,-1 3,-3s-1,-3 -3,-3h-4v6z M21,43h2c1,0 1,0 1,-1s0,-1 -1,-1h-2v2z"/>
+
+    <!-- K text -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M26,39v6h1v-2.5h1l1.5,2.5h1.2l-1.7,-2.5c0.8,-0.2 1,-0.7 1,-1.5s-0.5,-2 -2,-2h-2z M27,40h1c0.5,0 1,0 1,1s-0.5,1 -1,1h-1v-2z"/>
+
+</vector>

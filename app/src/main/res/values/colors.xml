@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Brand Colors - Professional Agriculture Green Palette -->
+    <color name="primary_green">#2E7D32</color>
+    <color name="primary_green_dark">#1B5E20</color>
+    <color name="primary_green_light">#4CAF50</color>
+    <color name="primary_green_variant">#388E3C</color>
+
+    <!-- Secondary Colors -->
+    <color name="secondary_green">#66BB6A</color>
+    <color name="secondary_green_variant">#81C784</color>
+    <color name="accent_green">#8BC34A</color>
+    <color name="accent_green_dark">#689F38</color>
+
+    <!-- Surface and Background Colors -->
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_variant">#F8F9FA</color>
+    <color name="background">#FAFAFA</color>
+    <color name="background_light">#F1F8E9</color>
+    <color name="surface_green">#E8F5E8</color>
+    <color name="surface_green_light">#F3F8F3</color>
+
+    <!-- Status and Action Colors -->
+    <color name="success_green">#4CAF50</color>
+    <color name="warning_orange">#FF9800</color>
+    <color name="warning_amber">#FFC107</color>
+    <color name="error_red">#F44336</color>
+    <color name="info_blue">#2196F3</color>
+
+    <!-- Text Colors -->
+    <color name="on_primary">#FFFFFF</color>
+    <color name="on_secondary">#000000</color>
+    <color name="on_surface">#212121</color>
+    <color name="on_background">#212121</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_hint">#9E9E9E</color>
+    <color name="text_disabled">#BDBDBD</color>
+    <color name="text_white">#FFFFFF</color>
+
+    <!-- Outline and Border Colors -->
+    <color name="outline">#E0E0E0</color>
+    <color name="outline_variant">#EEEEEE</color>
+    <color name="divider">#E0E0E0</color>
+
+    <!-- System Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="gray_50">#FAFAFA</color>
+    <color name="gray_100">#F5F5F5</color>
+    <color name="gray_200">#EEEEEE</color>
+    <color name="gray_300">#E0E0E0</color>
+    <color name="gray_400">#BDBDBD</color>
+    <color name="gray_500">#9E9E9E</color>
+    <color name="gray_600">#757575</color>
+    <color name="gray_700">#616161</color>
+    <color name="gray_800">#424242</color>
+    <color name="gray_900">#212121</color>
+    <color name="gray_light">#FAFAFA</color>
+
+    <!-- Light Theme Specific Colors -->
+    <color name="background_color">@color/background</color>
+    <color name="surface_color">@color/surface</color>
+    <color name="text_color_primary">@color/text_primary</color>
+    <color name="text_color_secondary">@color/text_secondary</color>
+    <color name="card_background">@color/white</color>
+    <color name="ripple_color">#1F4CAF50</color>
+
+    <!-- Agriculture Specific Colors -->
+    <color name="leaf_green">#689F38</color>
+    <color name="crop_yellow">#FDD835</color>
+    <color name="soil_brown">#8D6E63</color>
+    <color name="sky_blue">#87CEEB</color>
+    <color name="organic_green">#7CB342</color>
+
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark Theme Primary Colors -->
+    <color name="primary_green">#4CAF50</color>
+    <color name="primary_green_dark">#2E7D32</color>
+    <color name="primary_green_light">#66BB6A</color>
+    <color name="primary_green_variant">#388E3C</color>
+
+    <!-- Dark Theme Secondary Colors -->
+    <color name="secondary_green">#81C784</color>
+    <color name="secondary_green_variant">#A5D6A7</color>
+    <color name="accent_green">#8BC34A</color>
+    <color name="accent_green_dark">#689F38</color>
+
+    <!-- Dark Surface and Background Colors -->
+    <color name="surface">#1E1E1E</color>
+    <color name="surface_variant">#2D2D2D</color>
+    <color name="background">#121212</color>
+    <color name="background_light">#1A1A1A</color>
+    <color name="surface_green">#1B2E1B</color>
+    <color name="surface_green_light">#243824</color>
+
+    <!-- Dark Theme Text Colors -->
+    <color name="on_primary">#000000</color>
+    <color name="on_secondary">#FFFFFF</color>
+    <color name="on_surface">#E0E0E0</color>
+    <color name="on_background">#E0E0E0</color>
+    <color name="text_primary">#E0E0E0</color>
+    <color name="text_secondary">#BDBDBD</color>
+    <color name="text_hint">#757575</color>
+    <color name="text_disabled">#616161</color>
+    <color name="text_white">#FFFFFF</color>
+
+    <!-- Dark Outline and Border Colors -->
+    <color name="outline">#3E3E3E</color>
+    <color name="outline_variant">#2D2D2D</color>
+    <color name="divider">#3E3E3E</color>
+
+    <!-- Dark Theme Specific Colors -->
+    <color name="background_color">@color/background</color>
+    <color name="surface_color">@color/surface</color>
+    <color name="text_color_primary">@color/text_primary</color>
+    <color name="text_color_secondary">@color/text_secondary</color>
+    <color name="card_background">@color/surface_variant</color>
+    <color name="ripple_color">#1F81C784</color>
+
+</resources>

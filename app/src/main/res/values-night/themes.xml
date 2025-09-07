@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Dark DrKisan Theme -->
+    <style name="Theme.DrKisan" parent="Theme.Material3.DayNight">
+        <!-- Primary colors for dark theme -->
+        <item name="colorPrimary">@color/primary_green</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <item name="colorPrimaryContainer">@color/surface_green</item>
+        <item name="colorOnPrimaryContainer">@color/primary_green_light</item>
+
+        <!-- Secondary colors for dark theme -->
+        <item name="colorSecondary">@color/secondary_green</item>
+        <item name="colorOnSecondary">@color/on_secondary</item>
+        <item name="colorSecondaryContainer">@color/surface_green_light</item>
+        <item name="colorOnSecondaryContainer">@color/secondary_green_variant</item>
+
+        <!-- Tertiary colors for dark theme -->
+        <item name="colorTertiary">@color/accent_green</item>
+        <item name="colorOnTertiary">@color/black</item>
+        <item name="colorTertiaryContainer">@color/surface_green</item>
+        <item name="colorOnTertiaryContainer">@color/accent_green</item>
+
+        <!-- Error colors for dark theme -->
+        <item name="colorError">@color/error_red</item>
+        <item name="colorOnError">@color/white</item>
+        <item name="colorErrorContainer">#3B1A1A</item>
+        <item name="colorOnErrorContainer">#F48FB1</item>
+
+        <!-- Surface colors for dark theme -->
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/on_surface</item>
+        <item name="colorSurfaceVariant">@color/surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/text_secondary</item>
+
+        <!-- Background colors for dark theme -->
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorOnBackground">@color/on_background</item>
+
+        <!-- Outline colors for dark theme -->
+        <item name="colorOutline">@color/outline</item>
+        <item name="colorOutlineVariant">@color/outline_variant</item>
+
+        <!-- System UI colors for dark theme -->
+        <item name="android:statusBarColor">@color/background</item>
+        <item name="android:navigationBarColor">@color/surface</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">false</item>
+
+        <!-- Material components customization for dark theme -->
+        <item name="elevationOverlayEnabled">true</item>
+        <item name="materialAlertDialogTheme">@style/DrKisan.AlertDialog.Dark</item>
+        <item name="bottomSheetDialogTheme">@style/DrKisan.BottomSheetDialog.Dark</item>
+
+        <!-- Toolbar and ActionBar for dark theme -->
+        <item name="toolbarStyle">@style/DrKisan.Toolbar.Dark</item>
+        <item name="actionBarTheme">@style/DrKisan.ActionBar.Dark</item>
+    </style>
+
+    <!-- Dark Toolbar Style -->
+    <style name="DrKisan.Toolbar.Dark" parent="Widget.Material3.Toolbar">
+        <item name="titleTextColor">@color/text_primary</item>
+        <item name="subtitleTextColor">@color/text_secondary</item>
+        <item name="android:background">@color/surface</item>
+        <item name="navigationIconTint">@color/text_primary</item>
+    </style>
+
+    <!-- Dark ActionBar Style -->
+    <style name="DrKisan.ActionBar.Dark" parent="ThemeOverlay.Material3.ActionBar">
+        <item name="colorPrimary">@color/surface</item>
+        <item name="colorOnPrimary">@color/text_primary</item>
+    </style>
+
+    <!-- Dark Dialog Styles -->
+    <style name="DrKisan.AlertDialog.Dark" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="colorPrimary">@color/primary_green</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorSurface">@color/surface_variant</item>
+        <item name="android:colorBackground">@color/surface_variant</item>
+    </style>
+
+    <style name="DrKisan.BottomSheetDialog.Dark" parent="ThemeOverlay.Material3.BottomSheetDialog">
+        <item name="colorPrimary">@color/primary_green</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorSurface">@color/surface_variant</item>
+        <item name="android:colorBackground">@color/surface_variant</item>
+    </style>
+
+</resources>
