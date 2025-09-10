@@ -91,12 +91,12 @@
 ## 📸 Screenshots
 
 <div align="center">
-  <img src="screenshots/s1.jpg" width="200" alt="Main Screen">
-  <img src="screenshots/s2.jpg" width="200" alt="Camera Screen">
-  <img src="screenshots/s3.jpg" width="200" alt="Results Screen">
-  <img src="screenshots/s4.jpg" width="200" alt="Treatment Screen">
-  <img src="screenshots/s5.jpg" width="200" alt="Products Screen">
-  <img src="screenshots/s6.jpg" width="200" alt="Community Screen">
+  <img src="app/s1.jpg" width="200" alt="Main Screen">
+  <img src="app/s2.jpg" width="200" alt="Camera Screen">
+  <img src="app/s3.jpg" width="200" alt="Results Screen">
+  <img src="app/s4.jpg" width="200" alt="Treatment Screen">
+  <img src="app/s5.jpg" width="200" alt="Products Screen">
+  <img src="app/s6.jpg" width="200" alt="Community Screen">
   
 </div>
 
