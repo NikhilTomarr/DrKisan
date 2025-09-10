@@ -1,13 +1,11 @@
 # 🌾 DrKisan - AI-Powered Crop Disease Detection App
 
 <div align="center">
-  <img src="https://your-logo-url.com/drkisan-logo.png" alt="DrKisan Logo" width="120" height="120">
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjquhLGqu8VZyIGCaDS0vnekWUjJ1yGqDYSYkR62DlZHhkBc1pkuMp-LAIuiIvtESrzxI0PB-upbnBjnvbwSMadRllRJBhNS82d9YijhSefrlOivsvN5eM058hzDLnQ38R0wgTyYKoUHS7W8yUcOzrPGLj3mBTtqwyjVrPoHtPTvcTlIdumr-pgZGFSJW6H/s1280/20231007_191328.png" alt="DrKisan Logo" width="120" height="120">
   
   ![Android](https://img.shields.io/badge/Platform-Android-brightgreen)
   ![TensorFlow Lite](https://img.shields.io/badge/ML-TensorFlow%20Lite-orange)
   ![Java](https://img.shields.io/badge/Language-Java-blue)
-  ![GitHub stars](https://img.shields.io/github/stars/yourusername/DrKisan-Disease-Detection)
-  ![GitHub forks](https://img.shields.io/github/forks/yourusername/DrKisan-Disease-Detection)
 </div>
 
 ---
@@ -36,7 +34,7 @@
 - Price comparison and product details
 - Demo purchase workflow
 
-👥 **Farmer Community**
+👥 **Farmer Community (Soon)**
 - Discussion forum for agricultural queries
 - Experience sharing platform
 - Expert advice and tips
@@ -93,44 +91,15 @@
 ## 📸 Screenshots
 
 <div align="center">
-  <img src="screenshots/main_screen.png" width="200" alt="Main Screen">
-  <img src="screenshots/camera_screen.png" width="200" alt="Camera Screen">
-  <img src="screenshots/result_screen.png" width="200" alt="Results Screen">
-  <img src="screenshots/community_screen.png" width="200" alt="Community Screen">
+  <img src="screenshots/s1.jpg" width="200" alt="Main Screen">
+  <img src="screenshots/s2.jpg" width="200" alt="Camera Screen">
+  <img src="screenshots/s3.jpg" width="200" alt="Results Screen">
+  <img src="screenshots/s4.jpg" width="200" alt="Treatment Screen">
+  <img src="screenshots/s5.jpg" width="200" alt="Products Screen">
+  <img src="screenshots/s6.jpg" width="200" alt="Community Screen">
+  
 </div>
 
-## 🎯 Current Status
-
-### ✅ **Completed Features**
-- [x] Disease detection with TensorFlow Lite
-- [x] Camera integration and image capture
-- [x] Results analysis and recommendations
-- [x] Treatment and products marketplace
-- [x] Farmer community platform
-- [x] Professional UI with Material Design
-
-### 🔄 **In Development**
-- [ ] User authentication and profiles
-- [ ] Cloud synchronization
-- [ ] Enhanced ML model with 39+ diseases
-- [ ] Real-time market price integration
-- [ ] Multi-language support (Hindi, English)
-
-### 🎯 **Planned Features**
-- [ ] Offline data storage with Room Database
-- [ ] Push notifications for treatment reminders
-- [ ] Integration with agricultural APIs
-- [ ] Weather data integration
-- [ ] Crop management calendar
-- [ ] Expert consultation booking
-
-## 📦 Installation & Setup
-
-### Prerequisites
-- Android Studio 4.0+
-- Android SDK 21+
-- Java 8+
-- Git
 
 ## 🧪 Testing
 
@@ -140,62 +109,10 @@ The app has been tested on:
 - Both emulator and physical devices
 - Various camera conditions and image qualities
 
-## 🏗 Architecture
-
-app/
-├── src/main/java/com/dr/kisan/
-│ ├── activities/ # UI Activities
-│ ├── adapters/ # RecyclerView Adapters
-│ ├── models/ # Data Models
-│ ├── utils/ # Utility Classes
-│ └── ml/ # ML Integration
-├── src/main/res/
-│ ├── layout/ # XML Layouts
-│ ├── drawable/ # Vector Drawables
-│ └── values/ # Colors, Strings, Themes
-└── assets/ # ML Model & Labels
 
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit issues or pull requests.
-
-### Development Guidelines
-1. Fork the repository
-2. Create a feature branch
-3. Make changes with proper documentation
-4. Test thoroughly
-5. Submit pull request
-
-## 📋 Learning Outcomes
-
-This project demonstrates proficiency in:
-
-**Technical Skills:**
-- Native Android development
-- Machine Learning integration
-- UI/UX design principles
-- Camera API implementation
-- Material Design guidelines
-
-**Soft Skills:**
-- Problem-solving approach
-- User-centric design thinking
-- Project planning and execution
-- Documentation and communication
-- Continuous learning mindset
-
-## 📞 Contact & Connect
-
-**Developer:** [Your Name]  
-**Email:** your.email@example.com  
-**LinkedIn:** [Your LinkedIn Profile]  
-**Portfolio:** [Your Portfolio Website]
-
-### 🌟 **Available for:**
-- Android Development roles
-- Mobile App Development projects
-- Machine Learning integration projects
-- Freelance development work
 
 ---
 
@@ -203,6 +120,6 @@ This project demonstrates proficiency in:
 
 **⭐ If you found this project helpful, please consider giving it a star!**
 
-Made with ❤️ by [Your Name]
+Made with ❤️ by [Nikhil Tomar]
 
 </div>
